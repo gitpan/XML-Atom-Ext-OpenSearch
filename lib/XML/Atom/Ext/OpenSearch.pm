@@ -8,7 +8,7 @@ use XML::Atom::Feed;
 
 use XML::Atom::Ext::OpenSearch::Query;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
@@ -27,7 +27,7 @@ XML::Atom::Ext::OpenSearch - XML::Atom extension for OpenSearch data
 This module is an extension to XML::Atom which will let you read and write 
 feeds that use OpenSearch data. OpenSearch provides some extra elements
 to serialize search results as an Atom feed. See
-L<the specification|http://www.opensearch.org/Specifications/OpenSearch/1.1>
+the specification (http://www.opensearch.org/Specifications/OpenSearch/1.1)
 for more information.
 
 =head1 METHODS
@@ -77,7 +77,7 @@ Brian Cassidy E<lt>bricas@cpan.orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2007 by Brian Cassidy
+Copyright 2007-2009 by Brian Cassidy
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

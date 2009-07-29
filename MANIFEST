@@ -1,12 +1,10 @@
 Changes
 Changes.yml
-inc/Module/AutoInstall.pm
 inc/Module/Install.pm
-inc/Module/Install/AutoInstall.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
+inc/Module/Install/ExtraTests.pm
 inc/Module/Install/Fetch.pm
-inc/Module/Install/Include.pm
 inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Win32.pm
@@ -20,5 +18,5 @@ README
 t/01-use.t
 t/10-ext.t
 t/11-parse.t
-t/98-pod.t
-t/99-pod_coverage.t
+xt/release/pod.t
+xt/release/pod_coverage.t

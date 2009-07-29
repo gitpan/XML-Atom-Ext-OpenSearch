@@ -19,7 +19,7 @@ XML::Atom::Ext::OpenSearch::Query - OpenSearch query element
 
 This elements represents query that was or can be performed by the client. It
 can be used to echo the request, or even provide an example query. Review
-L<the specification|http://www.opensearch.org/Specifications/OpenSearch/1.1#OpenSearch_Query_element>
+the specification (http://www.opensearch.org/Specifications/OpenSearch/1.1#OpenSearch_Query_element)
 for more information.
 
 =head1 METHODS
@@ -81,7 +81,7 @@ Brian Cassidy E<lt>bricas@cpan.orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2007 by Brian Cassidy
+Copyright 2007-2009 by Brian Cassidy
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 
