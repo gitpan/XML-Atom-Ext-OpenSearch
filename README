@@ -4,8 +4,8 @@ NAME
 SYNOPSIS
         use XML::Atom::Feed;
         use XML::Atom::Ext::OpenSearch;
-        
-    my $feed = XML::Atom::Feed->new;
+    
+        my $feed = XML::Atom::Feed->new;
         $feed->totalResults( $total );
 
 DESCRIPTION
@@ -31,7 +31,7 @@ AUTHOR
     Brian Cassidy <bricas@cpan.org>
 
 COPYRIGHT AND LICENSE
-    Copyright 2007-2009 by Brian Cassidy
+    Copyright 2007-2011 by Brian Cassidy
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
